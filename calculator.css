@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#main-div ,#left-div, #right-div,.heading, .historyDiv
+/* , #main-screen, #btn */
+{
+    border: 1px solid red;
+}
+#main-div{
+    width: auto;
+    height: 99vh;
+}
+
+#left-div{
+    width: 49.99%;
+    height: 100%;
+    float: left;
+}
+
+#right-div{
+    width: 49.99%;
+    height: 100%;
+    float: left;
+}
+
+
+#left-div .heading{
+    width: 100%;
+    height: 80px;
+    padding: 17px 0 0 15px; 
+    /* text-align: center; */
+}
+#equation,#inputBox{
+    width: 100%;
+    text-align: right;
+    border: 0;
+    border-bottom: 1px solid grey;
+}
+#equation{
+    height: 40px;
+    font-size: 25px;
+    letter-spacing: 2px;
+   
+}
+
+#inputBox{
+    width: 100%;
+    height: 70px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+#left-div #btn
+{
+    width: 100%;
+    height: 448px;
+}
+
+#btn button
+{
+    width: 24.99%;
+    height: 19.99%;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.heading1 {
+    border: 1px solid red;
+    padding: 20px;
+}
+
+.historyDiv div{
+    border: 1px solid red;
+    text-align: right;
+    padding: 10px;
+}
+
+.historyDiv {
+    width: 100%;
+    height: 484px;
+    border: 1px solid black;
+    overflow: auto;
+}
+
+.clearHisBtn{
+    padding: 40px;
+    text-align: center;
+}
